@@ -1,0 +1,16 @@
+{
+  "name": "qa-desafio-cypress",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test:saucedemo": "cypress run --spec cypress/e2e/1-saucedemo.cy.ts",
+    "test:books": "cypress run --spec cypress/e2e/2-books.cy.ts",
+    "test:tables": "cypress run --spec cypress/e2e/3-tables.cy.ts"
+  },
+  "devDependencies": {
+    "cypress": "^13.15.0",
+    "typescript": "^5.4.0"
+  }
+}
